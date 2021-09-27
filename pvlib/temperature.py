@@ -500,7 +500,7 @@ def ross(poa_global, temp_air, noct):
     # factor of 0.1 converts irradiance from W/m2 to mW/cm2
     return temp_air + (noct - 20.) / 80. * poa_global * 0.1
 
-
+#TODO: Ruby's potential contribution here...
 def _fuentes_hconv(tave, windmod, tinoct, temp_delta, xlen, tilt,
                    check_reynold):
     # Calculate the convective coefficient as in Fuentes 1987 -- a mixture of
