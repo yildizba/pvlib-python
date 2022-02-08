@@ -20,7 +20,6 @@ def pvfactors_timeseries(
     described in [1]_.
     Please refer to pvfactors online documentation for more details:
     https://sunpower.github.io/pvfactors/
-
     Parameters
     ----------
     solar_azimuth: numeric
@@ -60,7 +59,6 @@ def pvfactors_timeseries(
         Back surface reflectivity of PV rows
     horizon_band_angle: float, default 15
         Elevation angle of the sky dome's diffuse horizon band (deg)
-
     Returns
     -------
     poa_front: numeric
@@ -75,7 +73,6 @@ def pvfactors_timeseries(
     poa_back_absorbed: numeric
         Calculated absorbed irradiance on the back surface of the PV modules
         (W/m2), after AOI losses
-
     References
     ----------
     .. [1] Anoma, Marc Abou, et al. "View Factor Model and Validation for
