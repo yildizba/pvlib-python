@@ -125,6 +125,6 @@ def pvfactors_timeseries(
         irradiance_model_params=irradiance_model_params)
 
     # Turn report into dataframe
-    df_report = pd.DataFrame(report, index=timestamps)
+    df_report = pd.DataFrame(report, index=timestamps).T
 
     return df_report
