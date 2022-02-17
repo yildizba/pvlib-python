@@ -147,5 +147,4 @@ def pvfactors_timeseries(
     # Turn report into dataframe
     df_report = pd.DataFrame(report, index=timestamps)
 
-    return (df_report.total_inc_front, df_report.total_inc_back,
-            df_report.total_abs_front, df_report.total_abs_back)
+    return df_report
