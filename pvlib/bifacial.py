@@ -126,5 +126,5 @@ def pvfactors_timeseries(
 
     # Turn report into dataframe
     df_report = pd.DataFrame(report, index=timestamps).T
-
-    return df_report
+    a = 3
+    return df_report, a
